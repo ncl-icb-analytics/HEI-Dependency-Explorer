@@ -1,0 +1,13 @@
+/venv/
+/output/
+/NLHCR Analyst Scripts/
+/LTC LCS CF Scripts/
+table_names.csv
+transformations.csv
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.bak
+*.tmp
