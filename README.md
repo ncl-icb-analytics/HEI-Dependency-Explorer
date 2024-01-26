@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-
-# HEI-Datasets-Exporter
-
-=======
-
 # HEI-Datasets-Exporter
 
 **HealtheIntent Transformation Exporter to .docx with Syntax Highlighting and Dependency Analysis**
