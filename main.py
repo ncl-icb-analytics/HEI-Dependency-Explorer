@@ -246,7 +246,7 @@ if not os.path.exists(output_directory_path):
 workflow_transformations = {}
 
 # Extract workflow name, dataset name, dataset version, date modified, and transformation SQL
-with open(input_file_path, 'r') as csvfile:
+with open(input_file_path, 'r', encoding='utf-8') as csvfile:
     csvreader = csv.reader(csvfile)
     headers = next(csvreader)
     for row in csvreader:
@@ -269,7 +269,7 @@ with open(input_file_path, 'r') as csvfile:
 
 # Extract unique data_set_mnemonics
 unique_data_sets = set()
-with open(input_file_path, 'r') as csvfile:
+with open(input_file_path, 'r', encoding='utf-8') as csvfile:
     csvreader = csv.reader(csvfile)
     headers = next(csvreader)
     for row in csvreader:
@@ -278,7 +278,7 @@ with open(input_file_path, 'r') as csvfile:
 
 # Read the additional table names from table_names.csv
 additional_table_names = set()
-with open(table_names_file_path, 'r') as csvfile:
+with open(table_names_file_path, 'r', encoding='utf-8') as csvfile:
     csvreader = csv.reader(csvfile)
     headers = next(csvreader)
     for row in csvreader:

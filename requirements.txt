@@ -6,3 +6,4 @@ nbstripout
 networkx
 matplotlib
 ipywidgets
+pyarrow
