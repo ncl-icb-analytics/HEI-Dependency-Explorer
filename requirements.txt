@@ -3,3 +3,6 @@ python-docx
 openpyxl
 sqlparse
 nbstripout
+networkx
+matplotlib
+ipywidgets
