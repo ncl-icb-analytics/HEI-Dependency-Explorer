@@ -43,7 +43,7 @@ import time
 # Configurable Variables
 INPUT_FILENAME = "transformations.csv"
 TABLE_NAMES_FILENAME = "table_names.csv"
-OUTPUT_DIRNAME = "LTC LCS CF Scripts"
+OUTPUT_DIRNAME = "Output"
 PROJECT_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 
 # Set Paths - leave this as default to use the project directory
